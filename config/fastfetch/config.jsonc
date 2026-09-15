@@ -1,0 +1,141 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"logo": {
+  //"type": "kitty-direct",
+  "height": 15,
+  "width": 30,
+  "padding": {
+    "top": 1
+    }
+  },
+"display": {
+  "separator": " ➜  "
+},
+
+"modules": [
+  "break",
+  {
+    "type": "os",
+    "key": " OS",
+    "keyColor": "yellow",
+  },
+  {
+    "type": "kernel",
+    "key": " ├  Kernel ",
+    "keyColor": "yellow",
+  },
+  {
+    "type": "uptime",
+    "key": " ├  Uptime ",
+    "keyColor": "yellow",
+  },
+  
+  {
+    "type": "packages",
+    "key": " ├ 󰏖 Packages ",
+    "keyColor": "yellow",
+  },
+  {
+    "type": "shell",
+    "key": " └   Shell",
+    "keyColor": "yellow",
+  },
+
+  "break",
+  {
+    "type": "wm",
+    "key": " DE/WM",
+    "keyColor": "blue",
+  },
+  {
+    "type": "wmtheme",
+    "key": " ├ 󰉼 Theme ",
+    "keyColor": "blue",
+  },
+  {
+    "type": "icons",
+    "key": " ├  Icons ",
+    "keyColor": "blue",
+  },
+  {
+    "type": "theme",
+    "key": " ├  Theme",
+    "keyColor": "blue",
+  },
+  {
+    "type": "font",
+    "key": " ├  Font ",
+    "keyColor": "blue",
+  },
+  {
+    "type": "cursor",
+    "key": " ├ 󰳾 Cursor ",
+    "keyColor": "blue",
+  },
+  {
+    "type": "terminal",
+    "key": " └  Terminal ",
+    "keyColor": "blue",
+  },
+  {
+    "type": "terminalfont",
+    "key": "   └  Terminal font",
+    "keyColor": "blue",
+  },
+  "break",
+  {
+    "type": "host",
+    "format": "{1}",
+    "key": "󰌢 SYSTEM",
+    "keyColor": "green",
+  },
+  {
+    "type": "display",
+    "key": " ├   Display ",
+    "compactType": "original-with-refresh-rate",
+    "keyColor": "green",
+  },
+  {
+    "type": "sound",
+    "key": " ├   Audio",
+    "format": "{2}",
+    "keyColor": "green",
+  },
+  {
+    "type": "cpu",
+    "format": "{1} ({3}) @ {7} GHz",
+    "key": " ├  CPU ",
+    "keyColor": "green",
+  },
+  {
+    "type": "gpu",
+    "format": "{2}",
+    "key": " ├ 󰢮 GPU ",
+    "keyColor": "green",
+  },
+  {
+    "type": "memory",
+    "key": " ├  RAM ",
+    "keyColor": "green",
+  },
+  {
+    "type": "swap",
+    "key": " ├ 󰓡 SWAP ",
+    "keyColor": "green",
+  },
+  {
+    "type": "disk",
+    "key": " └ 󰋊 Disk ",
+    "keyColor": "green",
+  },
+  {
+  	"type": "battery",
+  	"key": " ├ 󰂀 Battery",
+  	"keyColor": "green",
+  },
+  "break",
+  "colors",
+  "break",
+  "break",
+]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>kitty</icon>
+	<name>Open in Terminal</name>
+	<submenu></submenu>
+	<unique-id>1738095999399801-1</unique-id>
+	<command>kitty -e %f</command>
+	<description>Open in kitty terminal</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>micro</icon>
+	<name>Open Config File in Terminal</name>
+	<submenu></submenu>
+	<unique-id>1753639737954466-2</unique-id>
+	<command>kitty -e micro %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+</actions>
